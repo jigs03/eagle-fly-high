@@ -46,13 +46,8 @@ const Values = () => {
               SELFLESS SERVICE
             </h1>
             <p className="text-orange-300 text-sm drop-shadow-lg">
-              Put the welfare of the nation, the Army and your subordinates
-              before your own. Selfless service is larger than just one person.
-              In serving your country, you are doing your duty loyally without
-              thought of recognition or gain. The basic building block of
-              selfless service is the commitment of each team member to go a
-              little further, endure a little longer, and look a little closer
-              to see how he or she can add to the effort
+              Selfless service prioritizes the nation, Army, and subordinates, focusing on loyalty without recognition or gain.
+              Each team member commits to going further, endure longer, and contribute to the effort.
             </p>
           </div>
           <div className="p-5 bg-orange-800 rounded-lg drop-shadow-md flex flex-col items-center justify-center w-[30%]">
