@@ -54,7 +54,8 @@ const Values = () => {
             <h1 className="text-orange-200 text-xl drop-shadow-lg">RESPECT</h1>
             <p className="text-orange-300 text-sm drop-shadow-lg">
               The Soldier's code emphasizes treating others with dignity and respect, expecting others to do the same. 
-              Respect allows appreaciation of the best in others, trusting they have fulfilled their duties. Self-respect is crucial in the Army's values.
+              Respect allows appreaciation of the best in others, trusting they have fulfilled their duties. 
+              Self-respect is crucial in the Army's values.
           </div>
           <div className="p-5 bg-orange-800 rounded-lg drop-shadow-md flex flex-col items-center justify-center w-[30%]">
             <h1 className="text-orange-200 text-xl drop-shadow-lg">
