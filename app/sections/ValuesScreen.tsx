@@ -37,11 +37,8 @@ const Values = () => {
           <div className="p-5 bg-orange-800 rounded-lg drop-shadow-md flex flex-col items-center justify-center w-[30%]">
             <h1 className="text-orange-200 text-xl drop-shadow-lg">LOYALTY</h1>
             <p className="text-orange-300 text-sm drop-shadow-lg">
-              Bear true faith and allegiance to the Malaysia Constitution. A
-              loyal Soldier is one who supports the leadership and stands up for
-              fellow Soldiers. By wearing the uniform of the MALAYSIA Armed
-              Forces you are expressing your loyalty. And by doing your share,
-              you show your loyalty to your unit
+              Loyal Soldiers in Malaysia embody true faith, allegiance to the Malaysia Constitution,
+              and support leadership. Wearing the MALAYSIA Armed Forces uniform and doing your part demonstrates loyalty.
             </p>
           </div>
           <div className="p-5 bg-orange-800 rounded-lg drop-shadow-md flex flex-col items-center justify-center w-[30%]">
