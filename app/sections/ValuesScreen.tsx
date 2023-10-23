@@ -76,13 +76,9 @@ const Values = () => {
               INTEGRITY
             </h1>
             <p className="text-orange-300 text-sm drop-shadow-lg">
-              Do what is right, legally and morally. Integrity is a quality you
-              develop by adhering to moral principles. It requires that you do
-              and say nothing that deceives others. As your integrity grows, so
-              does the trust others place in you. The more choices you make
-              based on integrity, the more this highly prized value will affect
-              your relationships with family and friends, and, finally, the
-              fundamental acceptance of yourself
+              Integrity is a moral quality developed by adhering to principles, 
+              requiring no deceitful actions. As integrity grows, trust increases, 
+              impacting relationships, self-acceptance, and family and friends
             </p>
           </div>
         </RevealList>
