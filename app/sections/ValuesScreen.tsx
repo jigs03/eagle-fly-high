@@ -30,7 +30,7 @@ const Values = () => {
           <div className="p-5 bg-orange-800 rounded-lg drop-shadow-lg flex flex-col items-center justify-center w-[30%]">
             <h1 className="text-orange-200 text-xl drop-shadow-lg">DUTY</h1>
             <p className="text-orange-300 text-sm drop-shadow-lg">
-              Fulfilling your duty involves completing tasks as part of a 
+              Fulfilling your duty involves completing tasks as part of a
               team, resisting shortcuts to maintain the integrity of the final product.
             </p>
           </div>
