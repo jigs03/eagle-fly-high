@@ -27,9 +27,9 @@ const Values = () => {
           origin="bottom"
           className="flex flex-row flex-wrap items-baseline justify-center gap-5 invisible"
         >
-          <div className="p-5 bg-orange-800 rounded-lg drop-shadow-lg flex flex-col items-center justify-center w-[30%]">
-            <h1 className="text-orange-200 text-xl drop-shadow-lg">DUTY</h1>
-            <p className="text-orange-300 text-sm drop-shadow-lg">
+          <div >
+            <p className="text-orange-100 text-3x1 drop-shadow-lg">DUTY</p>
+            <p className="text-orange-300 leading-none">
               Fulfill your obligations. Doing your duty means more than carrying
               out your assigned tasks. Duty means being able to accomplish tasks
               as part of a team. You fulfill your obligations as a part of your
@@ -37,9 +37,9 @@ const Values = () => {
               that might undermine the integrity of the final product
             </p>
           </div>
-          <div className="p-5 bg-orange-800 rounded-lg drop-shadow-md flex flex-col items-center justify-center w-[30%]">
-            <h1 className="text-orange-200 text-xl drop-shadow-lg">LOYALTY</h1>
-            <p className="text-orange-300 text-sm drop-shadow-lg">
+          <div >
+          <p className="text-orange-100 text-3x1 drop-shadow-lg">LOYALTY</p>
+            <p className="text-orange-300 leading-none">
               Bear true faith and allegiance to the Malaysia Constitution. A
               loyal Soldier is one who supports the leadership and stands up for
               fellow Soldiers. By wearing the uniform of the MALAYSIA Armed
@@ -47,11 +47,9 @@ const Values = () => {
               you show your loyalty to your unit
             </p>
           </div>
-          <div className="p-5 bg-orange-800 rounded-lg drop-shadow-md flex flex-col items-center justify-center w-[30%]">
-            <h1 className="text-orange-200 text-xl drop-shadow-lg">
-              SELFLESS SERVICE
-            </h1>
-            <p className="text-orange-300 text-sm drop-shadow-lg">
+          <div >
+          <p className="text-orange-100 text-3x1 drop-shadow-lg">SELFLESS SERVICE</p>
+            <p className="text-orange-300 leading-none">
               Put the welfare of the nation, the Army and your subordinates
               before your own. Selfless service is larger than just one person.
               In serving your country, you are doing your duty loyally without
@@ -61,9 +59,9 @@ const Values = () => {
               to see how he or she can add to the effort
             </p>
           </div>
-          <div className="p-5 bg-orange-800 rounded-lg drop-shadow-md flex flex-col items-center justify-center w-[30%]">
-            <h1 className="text-orange-200 text-xl drop-shadow-lg">RESPECT</h1>
-            <p className="text-orange-300 text-sm drop-shadow-lg">
+          <div >
+          <p className="text-orange-100 text-3x1 drop-shadow-lg">RESPECT</p>
+            <p className="text-orange-300 leading-none">
               Treat people as they should be treated. In the Soldier&apos;s
               Code, we pledge to “treat others with dignity and respect while
               expecting others to do the same.” Respect is what allows us to
@@ -74,11 +72,9 @@ const Values = () => {
               The Army is one team and each of us has something to contribute
             </p>
           </div>
-          <div className="p-5 bg-orange-800 rounded-lg drop-shadow-md flex flex-col items-center justify-center w-[30%]">
-            <h1 className="text-orange-200 text-xl drop-shadow-lg">
-              INTEGRITY
-            </h1>
-            <p className="text-orange-300 text-sm drop-shadow-lg">
+          <div >
+          <p className="text-orange-100 text-3x1 drop-shadow-lg">INTERGRITY</p>
+            <p className="text-orange-300 leading-none">
               Do what is right, legally and morally. Integrity is a quality you
               develop by adhering to moral principles. It requires that you do
               and say nothing that deceives others. As your integrity grows, so
