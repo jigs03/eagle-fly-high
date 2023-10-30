@@ -1,9 +1,5 @@
 "use client";
 
-import { useRef } from "react";
-import LPH from "@/public/layered-peaks-haikei.svg";
-import Image from "next/image";
-import { RevealList } from "next-reveal";
 import BATCH2014 from "@/public/batch2014.jpg";
 import BATCH2015 from "@/public/batch2015.jpg";
 import BATCH2016 from "@/public/batch2016.jpg";
@@ -11,6 +7,9 @@ import BATCH2017 from "@/public/batch2017.jpg";
 import BATCH2018 from "@/public/batch2018.jpg";
 import BATCH2020 from "@/public/batch2020.jpg";
 import BATCH2021 from "@/public/batch2021.jpg";
+import LPH from "@/public/layered-peaks-haikei.svg";
+import { RevealList } from "next-reveal";
+import Image from "next/image";
 
 const batches = [
   {
