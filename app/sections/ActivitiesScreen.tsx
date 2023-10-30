@@ -2,9 +2,9 @@
 
 import IMG7 from "@/public/kawadkakiv1.jpg";
 import LPH from "@/public/layered-peaks-haikei.svg";
+import IMG3 from "@/public/menangkawad.jpg";
 import IMG1 from "@/public/photo_2023-09-25_20-24-22.jpg";
 import IMG2 from "@/public/photo_2023-09-25_20-27-09.jpg";
-import IMG3 from "@/public/photo_2023-10-01_00-44-32.jpg";
 import IMG4 from "@/public/photo_2023-10-01_00-44-36.jpg";
 import IMG6 from "@/public/photo_2023-10-01_00-44-45.jpg";
 import IMG5 from "@/public/photo_2023-10-01_01-02-33.jpg";
