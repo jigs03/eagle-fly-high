@@ -1,5 +1,6 @@
 "use client";
 
+import NADIMLOGO from "@/public/nadimlogo.png";
 import Image from "next/image";
 import LPH from "../../public/layered-peaks-haikei2.svg";
 
@@ -10,6 +11,12 @@ const History = () => {
         id="history"
         className="relative bg-orange-700 min-h-screen flex flex-col items-center justify-center px-5"
         >
+        <Image
+        src={NADIMLOGO}
+        alt=""
+        fill
+        className="absolute pointer-events-none opacity-5 object-contain"
+        />
         <h1 className="text-slate-100 drop-shadow-lg text-5xl mb-5">
         LATAR BELAKANG
         </h1>
