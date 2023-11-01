@@ -12,6 +12,7 @@ import Activities from "./sections/ActivitiesScreen";
 import Creed from "./sections/CreedScreen";
 import Footer from "./sections/Footer";
 import Gallery from "./sections/GalleryScreen";
+import History from "./sections/HistoryScreen";
 import HomeScreen from "./sections/HomeScreen";
 import Song from "./sections/SongScreen";
 import Values from "./sections/ValuesScreen";
