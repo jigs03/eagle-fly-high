@@ -1,20 +1,20 @@
 "use client";
 
-import About from "./sections/AboutScreen";
-import HomeScreen from "./sections/HomeScreen";
-import { motion, useMotionValue } from "framer-motion";
-import Image from "next/image";
+import LayeredSteps from "@/public/layered-steps-haikei.svg";
 import MainBg from "@/public/photo_2023-09-25_20-24-22.jpg";
 import MainBg2 from "@/public/photo_2023-09-25_20-27-09.jpg";
-import LayeredSteps from "@/public/layered-steps-haikei.svg";
-import Values from "./sections/ValuesScreen";
-import { useState, useEffect } from "react";
+import { motion, useMotionValue } from "framer-motion";
+import Image from "next/image";
+import { useEffect, useState } from "react";
+import About from "./sections/AboutScreen";
+import Academic from "./sections/AcademicScreen";
+import Activities from "./sections/ActivitiesScreen";
 import Creed from "./sections/CreedScreen";
-import Song from "./sections/SongScreen";
 import Footer from "./sections/Footer";
 import Gallery from "./sections/GalleryScreen";
-import Activities from "./sections/ActivitiesScreen";
-import Academic from "./sections/AcademicScreen";
+import HomeScreen from "./sections/HomeScreen";
+import Song from "./sections/SongScreen";
+import Values from "./sections/ValuesScreen";
 // import Academic from "./sections/AcademicScreen";
 
 export default function Home() {
@@ -56,6 +56,7 @@ export default function Home() {
         <Image src={LayeredSteps} alt="" className="w-screen" />
 
         <About />
+        <History />
         <Values />
         <Creed />
         <Song />

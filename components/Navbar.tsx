@@ -1,16 +1,23 @@
 "use client";
 
-import Image from "next/image";
-import NADIMLOGO from "../public/nadimlogo.png";
-import { useState, useEffect } from "react";
-import Link from "next/link";
-import { RevealWrapper } from "next-reveal";
 import { Dialog } from "@headlessui/react";
+import { RevealWrapper } from "next-reveal";
+import Image from "next/image";
+import Link from "next/link";
+import { useEffect, useState } from "react";
 import { AiOutlineClose as XMarkIcon } from "react-icons/ai";
 import { FaBars as Bars3Icon } from "react-icons/fa";
+import NADIMLOGO from "../public/nadimlogo.png";
 
 const navigation = [
-  { name: "About", href: "#about" },
+  {
+    name: "About",
+    href: "#about"
+  },
+  {
+    name: "History",
+    href: "#history"
+  }
   {
     name: "Values",
     href: "#values",
