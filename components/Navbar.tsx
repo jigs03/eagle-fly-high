@@ -17,7 +17,7 @@ const navigation = [
   {
     name: "History",
     href: "#history"
-  }
+  },
   {
     name: "Values",
     href: "#values",
