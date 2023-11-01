@@ -21,7 +21,7 @@ const History = () => {
         LATAR BELAKANG
         </h1>
         <div>
-            <p className="text-orange-300 leading-none text-center">
+            <p className="text-orange-300 text-center">
                 Kompeni Hang Nadim ditubuhkan pada 2017 hasil pecahan daripada batalion Jebat.
                 Pada tahun ini kompeni Hang Nadim sudah 5 tahun bertapak di ALK dan banyak
                 kejayaan demi kejayaan yang sudah dicapai. Antara yang tertinggi adalah menjadi
