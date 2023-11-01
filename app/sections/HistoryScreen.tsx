@@ -11,8 +11,8 @@ const History = () => {
         className="relative bg-orange-700 min-h-screen flex flex-col items-center justify-center px-5"
         >
         <Image
-            src={nadimlogo}
-            alt=""
+            src = {nadimlogo}
+            alt = ""
             fill
             className="absolute pointer-events-none opacity-5 object-contain"
         />
