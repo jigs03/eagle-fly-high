@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import LPH from "../../public/layered-peaks-haikei2.svg";
 
