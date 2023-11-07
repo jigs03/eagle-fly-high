@@ -39,6 +39,7 @@ const History = () => {
             delay={100}
             interval={100}
             className="flex flex-col justify-center text-center text orange-100 tracking-wider invisible"
+            >
         <div>
             <p className="text-orange-300 text-center">
                 Kompeni Hang Nadim ditubuhkan pada 2017 hasil pecahan daripada batalion Jebat.
@@ -47,6 +48,7 @@ const History = () => {
                 johan bagi pertadingan bola sepak antara kompeni 2 tahun berturut-turut pada tahun 2018.
             </p>
         </div>
+        </RevealList>
         </section>
     <Image src={LPH} alt="" className="w-screen rotate-180" />
     </>
