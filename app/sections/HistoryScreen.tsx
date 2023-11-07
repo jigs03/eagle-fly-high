@@ -40,19 +40,6 @@ const History = () => {
                 kejayaan demi kejayaan yang sudah dicapai. Antara yang tertinggi adalah menjadi
                 johan bagi pertadingan bola sepak antara kompeni 2 tahun berturut-turut pada tahun 2018.
             </p>
-
-            {images.map((batch, index) => (
-            <div key={index} className="flex items-center justify-center rounded-lg drop-shadow-lg border-2 border-solid border-orange-900 relative">
-                <Image
-                src={batch.src}
-                alt=""
-                fill
-                className="object-cover rounded-lg"
-                placeholder="blur"
-                loading="lazy"
-            />
-            </div>
-        ))}
         </div>
         </section>
     <Image src={LPH} alt="" className="w-screen rotate-180" />
