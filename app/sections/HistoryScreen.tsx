@@ -1,9 +1,22 @@
 "use client";
 
 import NADIMLOGO from "@/public/nadimlogo.png";
+import namaoc from "@/public/namaoc.jpg";
+import namaprk from "@/public/namaprk.jpg";
 import Image from "next/image";
 import LPH from "../../public/layered-peaks-haikei2.svg";
-//import nama oc  from ""
+
+const image = [
+    {
+        src : namaoc,
+        Text : "nama-nama oc",
+    },
+    {
+        src : namaprk,
+        Text : "nama-nama prk",
+    },
+];
+
 const History = () => {
     return (
     <>
@@ -27,6 +40,21 @@ const History = () => {
                 kejayaan demi kejayaan yang sudah dicapai. Antara yang tertinggi adalah menjadi
                 johan bagi pertadingan bola sepak antara kompeni 2 tahun berturut-turut pada tahun 2018.
             </p>
+            {images.map((batch, index) => (
+            <div
+            key={index}
+            className="flex items-center w-64 h-48 justify-center rounded-lg drop-shadow-lg border-2 border-solid border-orange-900 relative"
+            >
+            <Image
+                src={batch.src}
+                alt=""
+                fill
+                className="object-cover rounded-lg"
+                placeholder="blur"
+                loading="lazy"
+            />
+            </div>
+        ))}
         </div>
         </section>
     <Image src={LPH} alt="" className="w-screen rotate-180" />
