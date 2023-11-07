@@ -41,19 +41,19 @@ const History = () => {
                 johan bagi pertadingan bola sepak antara kompeni 2 tahun berturut-turut pada tahun 2018.
             </p>
         </div>
-          {images.map((batch, index) => (
+        {images.map((batch, index)=>(
             <div
-              key={index}
-              className="absolute pointer-events-none opacity-5 object-contain"
+            key={index}
+            className="absolute pointer-events-none opacity-5 object-contain"
             >
-              <Image
+            <Image
                 src={batch.src}
                 alt=""
                 fill
                 className="absolute pointer-events-none opacity-5 object-contain"
-              />
+            />
             </div>
-          ))}
+        ))}
         </section>
     <Image src={LPH} alt="" className="w-screen rotate-180" />
     </>
