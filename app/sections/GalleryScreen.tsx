@@ -7,7 +7,7 @@ import BATCH2017 from "@/public/batch2017.jpg";
 import BATCH2018 from "@/public/batch2018.jpg";
 import BATCH2020 from "@/public/batch2020.jpg";
 import BATCH2021 from "@/public/batch2021.jpg";
-import BATCH2022 from "@/public/batch2022.JPG";
+import BATCH2022 from "@/public/batch2022.jpg";
 import LPH from "@/public/layered-peaks-haikei.svg";
 import { RevealList } from "next-reveal";
 import Image from "next/image";
