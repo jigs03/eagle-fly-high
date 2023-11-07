@@ -3,7 +3,7 @@
 import NADIMLOGO from "@/public/nadimlogo.png";
 import Image from "next/image";
 import LPH from "../../public/layered-peaks-haikei2.svg";
-
+//import nama oc  from ""
 const History = () => {
     return (
     <>
