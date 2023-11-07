@@ -43,7 +43,7 @@ const History = () => {
             {images.map((batch, index) => (
             <div
             key={index}
-            className="flex items-center w-64 h-48 justify-center rounded-lg drop-shadow-lg border-2 border-solid border-orange-900 relative"
+            className="flex items-center justify-center rounded-lg drop-shadow-lg border-2 border-solid border-orange-900 relative"
             >
             <Image
                 src={batch.src}
