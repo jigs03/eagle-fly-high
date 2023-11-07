@@ -41,7 +41,8 @@ const History = () => {
                 johan bagi pertadingan bola sepak antara kompeni 2 tahun berturut-turut pada tahun 2018.
             </p>
         </div>
-        {images.map((batch, index)= > (
+        {
+        images.map((batch, index) = > (
             <div
             key={index}
             className="absolute pointer-events-none opacity-5 object-contain"
