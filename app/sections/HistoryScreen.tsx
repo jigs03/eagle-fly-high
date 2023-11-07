@@ -41,6 +41,30 @@ const History = () => {
                 johan bagi pertadingan bola sepak antara kompeni 2 tahun berturut-turut pada tahun 2018.
             </p>
         </div>
+        <RevealList
+          reset={true}
+          easing="ease-in-out"
+          delay={100}
+          interval={100}
+          origin="bottom"
+          className="flex flex-row flex-wrap gap-2 items-center justify-center"
+        >
+          {images.map((batch, index) => (
+            <div
+              key={index}
+              className="flex items-center w-64 h-48 justify-center rounded-lg drop-shadow-lg border-2 border-solid border-orange-900 relative"
+            >
+              <Image
+                src={batch.src}
+                alt=""
+                fill
+                className="object-cover rounded-lg"
+                placeholder="blur"
+                loading="lazy"
+              />
+            </div>
+          ))}
+        </RevealList>
         </section>
     <Image src={LPH} alt="" className="w-screen rotate-180" />
     </>
