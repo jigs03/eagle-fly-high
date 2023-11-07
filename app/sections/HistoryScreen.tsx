@@ -33,6 +33,12 @@ const History = () => {
         <h1 className="text-slate-100 drop-shadow-lg text-5xl mb-5">
         LATAR BELAKANG
         </h1>
+        <RevealList
+            reset={true}
+            easing="ease-in-out"
+            delay={100}
+            interval={100}
+            className="flex flex-col justify-center text-center text orange-100 tracking-wider invisible"
         <div>
             <p className="text-orange-300 text-center">
                 Kompeni Hang Nadim ditubuhkan pada 2017 hasil pecahan daripada batalion Jebat.
