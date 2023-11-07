@@ -28,6 +28,35 @@ const History = () => {
                 johan bagi pertadingan bola sepak antara kompeni 2 tahun berturut-turut pada tahun 2018.
             </p>
         </div>
+
+        <div className="flex-1 flex flex-col items-center justify-center p-10">
+            <h1 className="text-5xl text-white drop-shadow-lg mb-3 text-center">senarai nama prk</h1>
+            <RevealList
+                reset={true}
+                easing="ease-in-out"
+                delay={100}
+                interval={100}
+                origin="bottom"
+                className="text-left space-y-2 drop-shadow-lg invisible"
+            >
+                <div>
+                    <style>
+                        table, th, td{
+                            border:1px solid black;
+                        }
+                    </style>
+                    <table style="width:100%">
+                        <tr>
+                            <th>name</th>
+                            <th>period</th>
+                        </tr>
+                        <tr>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </RevealList>
+        </div>
         </section>
     <Image src={LPH} alt="" className="w-screen rotate-180" />
     </>
