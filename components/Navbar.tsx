@@ -44,7 +44,7 @@ const navigation = [
   },
   {
     name: "fame",
-    href: "#halloffame",
+    href: "#fame",
   }
 ];
 
