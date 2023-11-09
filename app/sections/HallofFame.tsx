@@ -45,9 +45,6 @@ const HallofFame = () => {
                         alt=""
                         className="object-fit relative rounded-lg"
                     />
-                    <div className="absolute top-5 bg-slate-100 py-1 px-2 rounded-lg flex items-center justify-center drop-shadow-lg ">
-                        <p className="text-top text-orange-200">{pictures.text}</p>
-                    </div>
                 </div>
                 ))}
             </RevealList>
