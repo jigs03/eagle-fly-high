@@ -41,7 +41,7 @@ const HallofFame = () => {
                     className="flex items-center justify-center rounded-lg drop-shadow-lg border-2 border-solid border-orange-900 relative"
                 >
                     <Image
-                        src={pictures.src}
+                        src={batch.src}
                         alt=""
                         fill
                         className="object-fit relative rounded-lg"
