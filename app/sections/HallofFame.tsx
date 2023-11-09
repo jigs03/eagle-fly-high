@@ -32,8 +32,8 @@ const HallofFame = () => {
                     className="flex items-center justify-center rounded-lg drop-shadow-lg border-2 border-solid border-orange-900 relative"
                 >
                     <Image
-                        src={pictures.src}
-                        alt=""
+                        src = {pictures.src}
+                        alt = ""
                         className="object-fit relative rounded-lg"
                     />
                     <div className="absolute bottom-5 bg-slate-100 py-1 px-2 rounded-lg flex items-center justify-center drop-shadow-lg ">
