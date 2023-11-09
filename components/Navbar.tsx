@@ -43,7 +43,7 @@ const navigation = [
     href: "#academic",
   },
   {
-    name: "Halloffame",
+    name: "Hall of fame",
     href: "#halloffame",
   }
 ];
