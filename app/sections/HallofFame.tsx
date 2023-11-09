@@ -31,11 +31,6 @@ const HallofFame = () => {
                     key={index}
                     className="flex items-center justify-center rounded-lg drop-shadow-lg border-2 border-solid border-orange-900 relative"
                 >
-                    <div className="absolute bottom-5 bg-slate-100 py-1 px-2 rounded-lg flex items-center justify-center drop-shadow-lg ">
-                        <p className="text-3xl text-orange-600">{pictures.text}</p>
-                    </div>
-                </div>
-                ))}
         </section>
         <Image src={LPH} alt="" className="w-screen rotate-180" />
         </>
