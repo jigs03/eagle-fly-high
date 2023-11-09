@@ -26,14 +26,6 @@ const HallofFame = () => {
             <h1 className="text-5xl text-slate-100 drop-shadow-lg mb-10">
                 Hall of Fame
             </h1>
-            <RevealList
-                reset={true}
-                easing="ease-in-out"
-                delay={100}
-                interval={100}
-                origin="bottom"
-                className="flex flex-row flex-wrap gap-2 items-center justify-center"
-            >
                 {pictures.map((batch, index) => (
                 <div
                     key={index}
@@ -49,7 +41,6 @@ const HallofFame = () => {
                     </div>
                 </div>
                 ))}
-            </RevealList>
         </section>
         <Image src={LPH} alt="" className="w-screen"/>
         </>
