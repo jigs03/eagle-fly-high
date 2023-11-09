@@ -25,7 +25,7 @@ const HallofFame = () => {
             className="w-full min-h-screen flex flex-col items-center justify-center bg-orange-700 px-5"
         >
             <h1 className="text-5xl text-slate-100 drop-shadow-lg mb-10">
-                Hall of Fame
+                Hall of Fame Officer Commanding and Senior under officer of Nadim
             </h1>
             <RevealList
                 reset={true}
@@ -43,6 +43,7 @@ const HallofFame = () => {
                     <Image
                         src={pictures.src}
                         alt=""
+                        fill
                         className="object-fit relative rounded-lg"
                     />
                 </div>
