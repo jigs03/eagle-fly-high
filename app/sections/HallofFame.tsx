@@ -9,11 +9,11 @@ import Image from "next/image";
 const pictures = [
     {
         src: OCNames,
-        text: "Hall Of Fame Officer Commanding of Nadim",
+        alt: "namaoc",
     },
     {
         src: SUONames,
-        text: "Hall of Fame Senior Under Officer of Nadim",
+        alt: "namaprk",
     },
 ];
 
