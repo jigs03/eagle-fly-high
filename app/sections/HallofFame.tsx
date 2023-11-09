@@ -42,7 +42,7 @@ const HallofFame = () => {
                 </div>
                 ))}
         </section>
-        <Image src={LPH} alt="" className="w-screen"/>
+        <Image src={LPH} alt="" className="w-screen rotate-180" />
         </>
     );
 };
