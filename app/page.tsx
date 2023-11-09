@@ -12,6 +12,7 @@ import Activities from "./sections/ActivitiesScreen";
 import Creed from "./sections/CreedScreen";
 import Footer from "./sections/Footer";
 import Gallery from "./sections/GalleryScreen";
+import HallofFame from "./sections/HallofFame";
 import History from "./sections/HistoryScreen";
 import HomeScreen from "./sections/HomeScreen";
 import Song from "./sections/SongScreen";
@@ -64,6 +65,7 @@ export default function Home() {
         <Gallery />
         <Activities />
         <Academic />
+        <HallofFame/>
 
         <Footer />
       </motion.div>

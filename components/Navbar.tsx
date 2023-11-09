@@ -40,7 +40,11 @@ const navigation = [
   },
   {
     name: "Academic",
-    href: "#academic"
+    href: "#academic",
+  },
+  {
+    name: "Halloffame",
+    href: "#halloffame",
   }
 ];
 
