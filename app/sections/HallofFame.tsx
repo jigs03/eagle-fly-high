@@ -38,12 +38,12 @@ const HallofFame = () => {
                 {pictures.map((pictures, index) => (
                 <div
                     key={index}
-                    className="flex items-center w-64 h-48 justify-center rounded-lg drop-shadow-lg border-2 border-solid border-orange-900 relative"
+                    className="flex items-center w-80 h-58 justify-center rounded-lg drop-shadow-lg border-2 border-solid border-orange-900 relative"
                 >
                     <Image
                         src={pictures.src}
                         alt=""
-                        className="object-cover relative rounded-lg"
+                        className="object-fit relative rounded-lg"
                     />
                 </div>
                 ))}
