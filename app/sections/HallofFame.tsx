@@ -3,7 +3,6 @@
 import LPH from "@/public/layered-peaks-haikei.svg";
 import OCNames from "@/public/namaoc.jpg";
 import SUONames from "@/public/namaprk.jpg";
-import { Revealist } from "next-reveal";
 import Image from "next/image";
 
 const pictures = [
@@ -27,7 +26,7 @@ const HallofFame = () => {
             <h1 className="text-5xl text-slate-100 drop-shadow-lg mb-10">
                 Hall of Fame
             </h1>
-            <Revealist
+            <RevealList
                 reset={true}
                 easing="ease-in-out"
                 delay={100}
@@ -50,7 +49,7 @@ const HallofFame = () => {
                     </div>
                 </div>
                 ))}
-            </Revealist>
+            </RevealList>
         </section>
         <Image src={LPH} alt="" className="w-screen"/>
         </>
