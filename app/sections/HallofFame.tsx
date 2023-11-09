@@ -25,7 +25,7 @@ const HallofFame = () => {
             className="w-full min-h-screen flex flex-col items-center justify-center bg-orange-700 px-5"
         >
             <h1 className="text-3xl text-slate-50 text-center drop-shadow-lg mb-10">
-                Hall of Fame <span className="text-orange-300 drop-shadow-lg">Officer Commanding</span> and <span className="text-orange-300 drop-shadow-lg">Senior under officer</span> of Nadim
+                Hall of Fame <span className="text-orange-500 drop-shadow-lg">Officer Commanding</span> and <span className="text-orange-500 drop-shadow-lg">Senior under officer</span> of Nadim
             </h1>
             <RevealList
                 reset={true}
