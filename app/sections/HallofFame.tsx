@@ -43,7 +43,6 @@ const HallofFame = () => {
                     <Image
                         src={pictures.src}
                         alt=""
-                        fill
                         className="object-fit relative rounded-lg"
                     />
                 </div>
