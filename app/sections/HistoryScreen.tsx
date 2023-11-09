@@ -1,21 +1,10 @@
 "use client";
 
 import NADIMLOGO from "@/public/nadimlogo.png";
-import namaoc from "@/public/namaoc.jpg";
-import namaprk from "@/public/namaprk.jpg";
+//import namaoc from "@/public/namaoc.jpg";
+//import namaprk from "@/public/namaprk.jpg";
 import Image from "next/image";
 import LPH from "../../public/layered-peaks-haikei2.svg";
-
-const image = [
-    {
-        src : namaoc,
-        Text : "nama-nama oc",
-    },
-    {
-        src : namaprk,
-        Text : "nama-nama prk",
-    },
-];
 
 const History = () => {
     return (
@@ -41,20 +30,6 @@ const History = () => {
                 johan bagi pertadingan bola sepak antara kompeni 2 tahun berturut-turut pada tahun 2018.
             </p>
         </div>
-        {
-        images.map((batch, index) = > (
-            <div
-            key={index}
-            className="absolute pointer-events-none opacity-5 object-contain"
-            >
-            <image
-                src = {batch.src}
-                alt = ""
-                fill
-                className ="absolute pointer-events-none opacity-5 object-contain"
-            />
-            </div>
-        ))}
         </section>
     <image src={LPH} alt="" className="w-screen rotate-180" />
     </>
