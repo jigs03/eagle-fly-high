@@ -35,13 +35,13 @@ const HallofFame = () => {
                 origin="bottom"
                 className="flex flex-row flex-wrap gap-2 items-center justify-center"
             >
-                {pictures.map((batch, index) => (
+                {pictures.map((pictures, index) => (
                 <div
                     key={index}
                     className="flex items-center justify-center rounded-lg drop-shadow-lg border-2 border-solid border-orange-900 relative"
                 >
                     <Image
-                        src={batch.src}
+                        src={pictures.src}
                         alt=""
                         fill
                         className="object-fit relative rounded-lg"
