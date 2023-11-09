@@ -24,7 +24,7 @@ const HallofFame = () => {
             id="gallery"
             className="w-full min-h-screen flex flex-col items-center justify-center bg-orange-700 px-5"
         >
-            <h1 className="text-5xl text-slate-100 drop-shadow-lg mb-10">
+            <h1 className="text-5xl text-slate-50 drop-shadow-lg mb-10">
                 Hall of Fame Officer Commanding and Senior under officer of Nadim
             </h1>
             <RevealList
