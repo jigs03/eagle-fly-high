@@ -43,6 +43,7 @@ const HallofFame = () => {
                     <Image
                         src={pictures.src}
                         alt=""
+                        fill
                         className="object-fit relative rounded-lg"
                     />
                     <div className="absolute bottom-5 bg-slate-100 py-1 px-2 rounded-lg flex items-center justify-center drop-shadow-lg ">
