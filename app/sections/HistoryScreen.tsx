@@ -1,8 +1,6 @@
 "use client";
 
 import NADIMLOGO from "@/public/nadimlogo.png";
-//import namaoc from "@/public/namaoc.jpg";
-//import namaprk from "@/public/namaprk.jpg";
 import Image from "next/image";
 import LPH from "../../public/layered-peaks-haikei2.svg";
 
@@ -31,7 +29,7 @@ const History = () => {
             </p>
         </div>
         </section>
-    <image src={LPH} alt="" className="w-screen rotate-180" />
+    <Image src={LPH} alt="" className="w-screen rotate-180" />
     </>
 );
 };
