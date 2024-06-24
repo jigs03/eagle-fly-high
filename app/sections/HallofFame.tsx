@@ -1,8 +1,8 @@
 "use client";
 
 import LPH from "@/public/layered-peaks-haikei.svg";
-import OCNames from "@/public/namaoc.jpg";
-import SUONames from "@/public/namaprk.jpg";
+import OCNames from "@/public/oc.jpg";
+import SUONames from "@/public/prk.jpg";
 import { RevealList } from "next-reveal";
 import Image from "next/image";
 
