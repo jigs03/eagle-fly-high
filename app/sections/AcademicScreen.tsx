@@ -1,8 +1,8 @@
 "use client";
 
 import LPH from "@/public/layered-peaks-haikei.svg";
-import Image from "next/image";
 import { RevealList } from "next-reveal";
+import Image from "next/image";
 
 const links = [
   {

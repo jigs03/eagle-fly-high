@@ -9,11 +9,11 @@ import Image from "next/image";
 const pictures = [
     {
         src: OCNames,
-        alt: "namaoc",
+        alt: "oc",
     },
     {
         src: SUONames,
-        alt: "namaprk",
+        alt: "prk",
     },
 ];
 
